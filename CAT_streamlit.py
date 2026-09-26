@@ -148,7 +148,7 @@ div[data-testid="stWidgetLabel"] p, div[data-testid="stWidgetLabel"] label {
 # ══════════════════════════════════════════════════════════════════════════════
 # LOAD PACKAGE
 # ══════════════════════════════════════════════════════════════════════════════
-PKG_PATH = r"G:\My Drive\NEU\research\research\Kim project 2\Crops comments\Results\6 GUI\CatBoost_package.pkl"
+PKG_PATH = "CatBoost_package.pkl"
 
 @st.cache_resource(show_spinner="Loading CatBoost model…")
 def load_package(path):
